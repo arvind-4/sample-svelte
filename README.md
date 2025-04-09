@@ -4,27 +4,31 @@ Deployed on [Vercel](https://vercel.com/). <br/>
 Live [Here](https://sample-svelte.vercel.app/).
 
 ---
+
 ## Running the Project on Your Machine
 
-#### Create a Folder & Clone the Repository.
-```
-mkdir ~/Dev/svelte-project
+#### Create a Folder & Clone the Repository:
+
+```bash
+mkdir -p ~/Dev/svelte-project
 cd ~/Dev/svelte-project
+git clone https://github.com/arvind-4/sample-svelte.git .
 ```
 
-#### Install Dependencies
-```
+#### Install Dependencies:
+
+```bash
 npm install
 ```
 
-**For yarn  type: `yarn install`**
+#### Run Dev Server:
 
-#### Run Dev Server
-```
+```bash
 npm run dev
 ```
 
-#### Build for Production
-```
+#### Build for Production:
+
+```bash
 npm run build
 ```
