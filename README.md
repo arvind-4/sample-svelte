@@ -18,17 +18,17 @@ git clone https://github.com/arvind-4/sample-svelte.git .
 #### Install Dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 #### Run Dev Server:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 #### Build for Production:
 
 ```bash
-npm run build
+pnpm build
 ```
