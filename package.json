@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.1.0",
@@ -16,7 +17,7 @@
     "concurrently": "^7.5.0",
     "cross-env": "^7.0.3",
     "postcss-cli": "^7.1.2",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.8",
     "svelte": "^3.52.0",
     "svelte-check": "^2.9.2",
     "svelte-preprocess": "^4.10.7",
